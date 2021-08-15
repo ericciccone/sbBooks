@@ -74,7 +74,7 @@ public class BooksController {
   @GetMapping("/books/unread")
   public ResponseEntity<List<Books>> findByUnRead() {
     try {
-      List<Books> books = booksRepository.findByUnread(true);
+      List<Books> books = booksRepository.findByUnread(false);
 
       if (books.isEmpty()) {
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
