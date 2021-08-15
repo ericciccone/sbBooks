@@ -1,0 +1,4 @@
+com/books/booklist/controller/BooksController.class
+com/books/booklist/repository/BooksList.class
+com/books/booklist/BooklistApplication.class
+com/books/booklist/domain/Books.class
